@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>AplikasiLaundry</title>
+        <vendor>Al Azim</vendor>
+        <homepage href=""/>
+        <description>Ini adalah sebuah aplikasi yang membantu anda untuk mencari jasa laundry terdekat.</description>
+        <description kind="short">AplikasiLaundry</description>
+        
+        
+    <icon href="full-_lyondry.png" kind="default"/>
+</information>
+    <update check="always"/>
+    
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="AplikasiLaundry.jar" main="true"/>
+        
+        
+    <jar href="lib/AbsoluteLayout.jar"/>
+<jar href="lib/AnimatonClass.jar"/>
+<jar href="lib/mysql-connector-java-5.1.49.jar"/>
+</resources>
+    <application-desc main-class="Controller.Main">
+        
+    </application-desc>
+</jnlp>
